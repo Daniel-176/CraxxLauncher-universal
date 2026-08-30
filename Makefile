@@ -1,5 +1,5 @@
 CXX      ?= g++
-CXXFLAGS ?= -std=c++17 -Wall -Wextra
+CXXFLAGS ?= -std=c++17 -Wall -Wextra -lcurl
 LDFLAGS  ?=
 
 TARGET    = bin/craxxlauncher
